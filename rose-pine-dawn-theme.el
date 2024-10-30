@@ -13,26 +13,26 @@
   (error "Requires Emacs 24 or later"))
 
 (autothemer-deftheme
- rose-pine "A theme based on rose-pine's amazing color scheme"
+ rose-pine-dawn "A theme based on rose-pine's amazing color scheme"
 
- ((((class color) (min-colors #xFFFFFF background dark)))
+ ((((class color) (min-colors #xFFFFFF background light)))
 
   ;; Define our color palette
-  (highlight-high   "#524f67")
-  (highlight-med    "#403d52")
-  (highlight-low    "#21202e")
-  (iris             "#c4a7e7")
-  (foam             "#9ccfd8")
-  (pine             "#31748f")
-  (rose             "#ebbcba")
-  (gold             "#f6c177")
-  (love             "#eb6f92")
-  (text             "#e0def4")
-  (subtle           "#908caa")
-  (muted            "#6e6a86")
-  (overlay          "#26233a")
-  (surface          "#1f1d2e")
-  (base             "#191724"))
+  (highlight-high   "#cecacd")
+  (highlight-med    "#dfdad9")
+  (highlight-low    "#f4ede8")
+  (iris             "#907aa9")
+  (foam             "#56949f")
+  (pine             "#286983")
+  (rose             "#d7827e")
+  (gold             "#ea9d34")
+  (love             "#b4637a")
+  (text             "#575279")
+  (subtle           "#797593")
+  (muted            "#9893a5")
+  (overlay          "#f2e9e1")
+  (surface          "#fffaf3")
+  (base             "#faf4ed"))
 
  ;; Customize faces
  (
@@ -446,5 +446,5 @@
                   (file-name-as-directory
                    (file-name-directory load-file-name))))
 
-(provide-theme 'rose-pine)
-;;; rose-pine-theme.el ends here
+(provide-theme 'rose-pine-dawn)
+;;; rose-pine-dawn-theme.el ends here

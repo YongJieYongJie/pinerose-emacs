@@ -1,11 +1,16 @@
 # pinerose-emacs
 Pinerose theme for Emacs
 
-### Dashboard
-![Dashboard](https://github.com/konrad1977/pinerose-emacs/blob/main/screenshots/dashboard.png)
+### Installation
 
-### Elisp
-![Elisp](https://github.com/konrad1977/pinerose-emacs/blob/main/screenshots/elisp.png)
+```lisp
+(use-package rose-pine-themes
+  :ensure t
+  :straight (rose-pine-themes
+            :type git
+            :host github
+            :repo "YongJieYongJie/pinerose-emacs")
+  :config
+  (load-theme 'rose-pine t))
+```
 
-### Swift
-![swift](https://github.com/konrad1977/pinerose-emacs/blob/main/screenshots/swift.png)
