@@ -20,7 +20,7 @@
   ;; Define our color palette
   (highlight-high   "#56526e")
   (highlight-med    "#44415a")
-  (highlight-low    "#56526e")
+  (highlight-low    "#2a283e")
   (iris             "#c4a7e7")
   (foam             "#9ccfd8")
   (pine             "#3e8fb0")
@@ -52,7 +52,7 @@
   (glyphless-char                       (:foreground muted))
   (header-line                          (:background overlay :foreground gold :weight 'semi-bold :italic t))
   (highlight                            (:background gold :foreground base :distant-foreground base))
-  (hl-line                              (:background highlight-low))
+  (hl-line                              (:background highlight-med))
   (homoglyph                            (:foreground foam))
   (isearch                              (:foreground base :background gold))
   (lazy-highlight                       (:foreground base :background pine))
