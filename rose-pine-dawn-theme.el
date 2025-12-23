@@ -67,7 +67,7 @@
   (mode-line-highlight                  (:foreground rose))
   (mode-line-buffer-id                  (:foreground text :bold t))
   (numbers                              (:background gold))
-  (region                               (:background overlay))
+  (region                               (:background highlight-high))
   (tooltip                              (:background muted :foreground base))
   (shadow                               (:foreground muted))
   (success                              (:foreground pine))
